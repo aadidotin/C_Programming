@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// using another Header for Boolen Values
+#include <stdbool.h>
+
 int main()
 {
     int a = 1;
@@ -8,6 +11,9 @@ int main()
     char c = 'A';
     int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int x = 10, y = 20, z = 30;
+    const int const_var = 15;  // This is a constant variable which can not be updated
+    bool todayIsWeekend = true;
+    bool todayIsMonday = false;
 
     // printf("%d \n", arr[1]);
     // printf("This is the sum of X, Y and Z %d \n", x + y + z);
